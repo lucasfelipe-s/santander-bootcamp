@@ -58,6 +58,7 @@ header .menu{
 
 .apresentaçao .texto-apresentacao{
     min-width: 200px;
+    width: 100%;
 }
 
 .texto-apresentacao h1{
@@ -174,7 +175,7 @@ header .menu{
 
 #planos{
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 62vh;
     padding-top: 50px;
 }
 
@@ -239,6 +240,20 @@ header .menu{
     margin-right: 5px;
 }
 
+footer{
+    background-color: #122A57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
 
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
+}
 
-    
+@media (max-width: 992px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
