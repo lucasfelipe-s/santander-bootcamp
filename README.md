@@ -14,11 +14,12 @@ Este é um repositorio para armazenar meu progresso durante o Santander Bootcamp
 
 <details>
   <summary><b>Módulo 0 - Prepare-se para a Jornada :ballot_box_with_check:</b></summary>
-  <ul>
+
+  <ol>
     <li>Conheça as Oportunidades da DIO</li>
     <li>Seja Protagonista Neste Bootcamp</li>
     <li>Boas-vindas ao Santander Bootcamp Fullstack Developer</li>
-  </ul>
+  </ol>
 </details>
   
 <details>
@@ -32,6 +33,7 @@ Este é um repositorio para armazenar meu progresso durante o Santander Bootcamp
 
 <details>
   <summary><b>Módulo 2 - HTML/CSS3/S :arrows_counterclockwise: </b></summary>
+    <div><a href="./modulo-2">Acessar conteúdos do Módulo 2</a></div>
     <ol>
       <li>Introdução a criação de websites com HTML5 e CSS3</li>
       <li>Posicionando elementos com Flebox em CSS</li>
@@ -55,6 +57,7 @@ Este é um repositorio para armazenar meu progresso durante o Santander Bootcamp
 
 <details>
   <summary><b>Módulo 3 - Angular :arrows_counterclockwise: </b></summary>
+  <div><a href="./modulo-3">Acessar conteúdos do Módulo 3</a></div>
     <ol>
       <li>Introdução ao Angular 8</li>
       <li>Trabalhando com Páginas SPA com Angular</li>
@@ -73,6 +76,7 @@ Este é um repositorio para armazenar meu progresso durante o Santander Bootcamp
 
 <details>
   <summary><b>Módulo 4 - JAVA :arrows_counterclockwise: </b></summary>
+  <div><a href="./modulo-4">Acessar conteúdos do Módulo 4</a></div>
     <ol>
       <li>Dominando IDEs Java</li>
       <li>Variáveis, Tipos de Dados e Operadores Matemáticos em Java</li>
@@ -90,6 +94,7 @@ Este é um repositorio para armazenar meu progresso durante o Santander Bootcamp
 
 <details>
   <summary><b>Módulo 5 - Spring Framework :arrows_counterclockwise: </b></summary>
+  <div><a href="./modulo-5">Acessar conteúdos do Módulo 5</a></div>
     <ol>
       <li>Conhecendo os Principais Protocolos de Comunicação da Internet</li>
       <li>Introdução ao famework Spring Boot</li>
