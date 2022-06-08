@@ -14,7 +14,7 @@ ul li a{
     text-decoration: none;
 }
 
-div imf{
+div img{
     display: block;
     width: 100%;
 }
@@ -24,6 +24,7 @@ div imf{
     max-width: 992px;
     margin: auto;
     width: 100%;
+    min-width: 320px;
 }
 
 header{
@@ -58,7 +59,6 @@ header .menu{
 
 .apresentaçao .texto-apresentacao{
     min-width: 200px;
-    width: 100%;
 }
 
 .texto-apresentacao h1{
@@ -253,7 +253,48 @@ footer .footer{
 }
 
 @media (max-width: 992px){
+    body{
+        text-align: center;
+    }
     .flex-container{
         flex-direction: column;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentaçao .texto-apresentacao{
+        width: 100%;
+    }
+
+    #quem-somos{
+        flex-direction: column-reverse;
+    }
+
+    #quem-somos img{
+        min-width: 320px;
+
+    }
+
+    .list-servicos{
+        flex-direction: column;
+    }
+
+    .item-servico img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .list-planos{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-planos .item-plano{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
